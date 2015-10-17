@@ -1,6 +1,6 @@
 #ASParallaxImageView (Objective-C Framework)
 
-![Preview in the demo app](/Preview.png)
+![Preview in the demo app](/ParallaxGif.gif)
 
 Like that parallax effect on App Icons on tvOS?
 
