@@ -53,4 +53,16 @@
 	}];
 }
 
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+	
+	CALayer *layer = self.layer;
+	CATransform3D rotationAndPerspectiveTransform = CATransform3DIdentity;
+	rotationAndPerspectiveTransform.m34 = 1.0 / -500;
+	rotationAndPerspectiveTransform = CATransform3DRotate(rotationAndPerspectiveTransform, 0.0f, 0.0f, 1.0f, 0.0f);
+	[UIView animateWithDuration:0.5f animations:^{
+		
+		layer.transform = rotationAndPerspectiveTransform;
+	}];
+}
+
 @end
