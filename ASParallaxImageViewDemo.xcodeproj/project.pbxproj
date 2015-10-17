@@ -15,6 +15,9 @@
 		17CC708E1BD2A13F00F7024D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CC708C1BD2A13F00F7024D /* LaunchScreen.storyboard */; };
 		17CC70991BD2A14000F7024D /* ASParallaxImageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC70981BD2A14000F7024D /* ASParallaxImageViewDemoTests.m */; };
 		17CC70A41BD2A14000F7024D /* ASParallaxImageViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC70A31BD2A14000F7024D /* ASParallaxImageViewDemoUITests.m */; };
+		17CC70B41BD2A17A00F7024D /* ASParallaxImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC70B31BD2A17A00F7024D /* ASParallaxImageView.m */; settings = {ASSET_TAGS = (); }; };
+		17CC70B81BD2A1A600F7024D /* WalesFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CC70B61BD2A1A600F7024D /* WalesFlag.png */; settings = {ASSET_TAGS = (); }; };
+		17CC70B91BD2A1A600F7024D /* WalesFlagOpaque.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CC70B71BD2A1A600F7024D /* WalesFlagOpaque.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		17CC709F1BD2A14000F7024D /* ASParallaxImageViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASParallaxImageViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CC70A31BD2A14000F7024D /* ASParallaxImageViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASParallaxImageViewDemoUITests.m; sourceTree = "<group>"; };
 		17CC70A51BD2A14000F7024D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CC70B21BD2A17A00F7024D /* ASParallaxImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASParallaxImageView.h; sourceTree = "<group>"; };
+		17CC70B31BD2A17A00F7024D /* ASParallaxImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASParallaxImageView.m; sourceTree = "<group>"; };
+		17CC70B61BD2A1A600F7024D /* WalesFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WalesFlag.png; sourceTree = "<group>"; };
+		17CC70B71BD2A1A600F7024D /* WalesFlagOpaque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WalesFlagOpaque.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +115,8 @@
 				17CC70871BD2A13F00F7024D /* Main.storyboard */,
 				17CC708A1BD2A13F00F7024D /* Assets.xcassets */,
 				17CC708C1BD2A13F00F7024D /* LaunchScreen.storyboard */,
+				17CC70B11BD2A17A00F7024D /* ASParallaxImageView */,
+				17CC70B51BD2A19200F7024D /* Resources */,
 				17CC708F1BD2A13F00F7024D /* Info.plist */,
 				17CC707E1BD2A13F00F7024D /* Supporting Files */,
 			);
@@ -138,6 +147,24 @@
 				17CC70A51BD2A14000F7024D /* Info.plist */,
 			);
 			path = ASParallaxImageViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		17CC70B11BD2A17A00F7024D /* ASParallaxImageView */ = {
+			isa = PBXGroup;
+			children = (
+				17CC70B21BD2A17A00F7024D /* ASParallaxImageView.h */,
+				17CC70B31BD2A17A00F7024D /* ASParallaxImageView.m */,
+			);
+			path = ASParallaxImageView;
+			sourceTree = SOURCE_ROOT;
+		};
+		17CC70B51BD2A19200F7024D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17CC70B61BD2A1A600F7024D /* WalesFlag.png */,
+				17CC70B71BD2A1A600F7024D /* WalesFlagOpaque.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +272,8 @@
 			files = (
 				17CC708E1BD2A13F00F7024D /* LaunchScreen.storyboard in Resources */,
 				17CC708B1BD2A13F00F7024D /* Assets.xcassets in Resources */,
+				17CC70B91BD2A1A600F7024D /* WalesFlagOpaque.png in Resources */,
+				17CC70B81BD2A1A600F7024D /* WalesFlag.png in Resources */,
 				17CC70891BD2A13F00F7024D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +302,7 @@
 				17CC70861BD2A13F00F7024D /* ViewController.m in Sources */,
 				17CC70831BD2A13F00F7024D /* AppDelegate.m in Sources */,
 				17CC70801BD2A13F00F7024D /* main.m in Sources */,
+				17CC70B41BD2A17A00F7024D /* ASParallaxImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
