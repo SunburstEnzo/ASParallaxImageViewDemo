@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		17BEB0FB1BD58CE600982C0F /* ASParallaxImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BEB0FA1BD58CE600982C0F /* ASParallaxImageView.m */; settings = {ASSET_TAGS = (); }; };
 		17BEB0FD1BD58D0500982C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BEB0FC1BD58D0500982C0F /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		17BEB0FF1BD58D5D00982C0F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 17BEB0FE1BD58D5D00982C0F /* README.md */; settings = {ASSET_TAGS = (); }; };
 		17CC70801BD2A13F00F7024D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC707F1BD2A13F00F7024D /* main.m */; };
 		17CC70831BD2A13F00F7024D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC70821BD2A13F00F7024D /* AppDelegate.m */; };
 		17CC70861BD2A13F00F7024D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC70851BD2A13F00F7024D /* ViewController.m */; };
@@ -41,6 +42,7 @@
 		17BEB0F91BD58CE600982C0F /* ASParallaxImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASParallaxImageView.h; sourceTree = "<group>"; };
 		17BEB0FA1BD58CE600982C0F /* ASParallaxImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASParallaxImageView.m; sourceTree = "<group>"; };
 		17BEB0FC1BD58D0500982C0F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		17BEB0FE1BD58D5D00982C0F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		17CC707B1BD2A13F00F7024D /* ASParallaxImageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASParallaxImageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CC707F1BD2A13F00F7024D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17CC70811BD2A13F00F7024D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		17CC707D1BD2A13F00F7024D /* ASParallaxImageViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				17BEB0FE1BD58D5D00982C0F /* README.md */,
 				17CC70811BD2A13F00F7024D /* AppDelegate.h */,
 				17CC70821BD2A13F00F7024D /* AppDelegate.m */,
 				17CC70841BD2A13F00F7024D /* ViewController.h */,
@@ -301,6 +304,7 @@
 			files = (
 				17CC70861BD2A13F00F7024D /* ViewController.m in Sources */,
 				17CC70831BD2A13F00F7024D /* AppDelegate.m in Sources */,
+				17BEB0FF1BD58D5D00982C0F /* README.md in Sources */,
 				17CC70801BD2A13F00F7024D /* main.m in Sources */,
 				17BEB0FB1BD58CE600982C0F /* ASParallaxImageView.m in Sources */,
 			);

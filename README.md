@@ -8,14 +8,7 @@ Here's the iOS version! For UIImageViews, replace with this subclass.
 
 Make sure userInteraction is enabled.
 
-
-
-Bugs:
-
-It really doesn't like you having a view behind it like so:
-
-![Bug when in front of a UIView](/Bug01.png)
-
+Make sure there's adequate room on the z axis otherwise it will clip with whatever's behind it, so set the customZPosition to something high (h/t @AdamSwinden)
 
 If you have any problems let me know @SunburstEnzo
 
