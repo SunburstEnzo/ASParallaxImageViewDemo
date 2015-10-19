@@ -10,13 +10,6 @@
 
 @implementation ASParallaxImageView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
 
 - (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
 	UITouch *touch = [touches anyObject];
@@ -38,7 +31,13 @@
 	//CGFloat angle = (newX + newY) / 2;
 	
 	
+	if (!self.customZPosition) {
+		
+		self.customZPosition = 100;
+	}
+	
 	CALayer *layer = self.layer;
+	layer.zPosition = self.customZPosition;
 	CATransform3D rotationAndPerspectiveTransform = CATransform3DIdentity;
 	rotationAndPerspectiveTransform.m34 = 1.0 / -500;
 	rotationAndPerspectiveTransform = CATransform3DRotate(rotationAndPerspectiveTransform,
@@ -52,6 +51,7 @@
 		layer.transform = rotationAndPerspectiveTransform;
 	}];
 }
+
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 	

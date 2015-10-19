@@ -10,4 +10,6 @@
 
 @interface ASParallaxImageView : UIImageView
 
+@property (nonatomic) CGFloat customZPosition;
+
 @end

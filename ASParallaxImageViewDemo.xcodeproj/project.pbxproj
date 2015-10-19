@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17BEB0FB1BD58CE600982C0F /* ASParallaxImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BEB0FA1BD58CE600982C0F /* ASParallaxImageView.m */; settings = {ASSET_TAGS = (); }; };
+		17BEB0FD1BD58D0500982C0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17BEB0FC1BD58D0500982C0F /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		17CC70801BD2A13F00F7024D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC707F1BD2A13F00F7024D /* main.m */; };
 		17CC70831BD2A13F00F7024D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC70821BD2A13F00F7024D /* AppDelegate.m */; };
 		17CC70861BD2A13F00F7024D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC70851BD2A13F00F7024D /* ViewController.m */; };
-		17CC70891BD2A13F00F7024D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CC70871BD2A13F00F7024D /* Main.storyboard */; };
 		17CC708B1BD2A13F00F7024D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CC708A1BD2A13F00F7024D /* Assets.xcassets */; };
 		17CC708E1BD2A13F00F7024D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CC708C1BD2A13F00F7024D /* LaunchScreen.storyboard */; };
 		17CC70991BD2A14000F7024D /* ASParallaxImageViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC70981BD2A14000F7024D /* ASParallaxImageViewDemoTests.m */; };
 		17CC70A41BD2A14000F7024D /* ASParallaxImageViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC70A31BD2A14000F7024D /* ASParallaxImageViewDemoUITests.m */; };
-		17CC70B41BD2A17A00F7024D /* ASParallaxImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17CC70B31BD2A17A00F7024D /* ASParallaxImageView.m */; settings = {ASSET_TAGS = (); }; };
 		17CC70B81BD2A1A600F7024D /* WalesFlag.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CC70B61BD2A1A600F7024D /* WalesFlag.png */; settings = {ASSET_TAGS = (); }; };
 		17CC70B91BD2A1A600F7024D /* WalesFlagOpaque.png in Resources */ = {isa = PBXBuildFile; fileRef = 17CC70B71BD2A1A600F7024D /* WalesFlagOpaque.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
@@ -38,13 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17BEB0F91BD58CE600982C0F /* ASParallaxImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASParallaxImageView.h; sourceTree = "<group>"; };
+		17BEB0FA1BD58CE600982C0F /* ASParallaxImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASParallaxImageView.m; sourceTree = "<group>"; };
+		17BEB0FC1BD58D0500982C0F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		17CC707B1BD2A13F00F7024D /* ASParallaxImageViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASParallaxImageViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CC707F1BD2A13F00F7024D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17CC70811BD2A13F00F7024D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		17CC70821BD2A13F00F7024D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		17CC70841BD2A13F00F7024D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		17CC70851BD2A13F00F7024D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		17CC70881BD2A13F00F7024D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17CC708A1BD2A13F00F7024D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17CC708D1BD2A13F00F7024D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17CC708F1BD2A13F00F7024D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,8 +56,6 @@
 		17CC709F1BD2A14000F7024D /* ASParallaxImageViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASParallaxImageViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CC70A31BD2A14000F7024D /* ASParallaxImageViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASParallaxImageViewDemoUITests.m; sourceTree = "<group>"; };
 		17CC70A51BD2A14000F7024D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17CC70B21BD2A17A00F7024D /* ASParallaxImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASParallaxImageView.h; sourceTree = "<group>"; };
-		17CC70B31BD2A17A00F7024D /* ASParallaxImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASParallaxImageView.m; sourceTree = "<group>"; };
 		17CC70B61BD2A1A600F7024D /* WalesFlag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WalesFlag.png; sourceTree = "<group>"; };
 		17CC70B71BD2A1A600F7024D /* WalesFlagOpaque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WalesFlagOpaque.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,7 +112,7 @@
 				17CC70821BD2A13F00F7024D /* AppDelegate.m */,
 				17CC70841BD2A13F00F7024D /* ViewController.h */,
 				17CC70851BD2A13F00F7024D /* ViewController.m */,
-				17CC70871BD2A13F00F7024D /* Main.storyboard */,
+				17BEB0FC1BD58D0500982C0F /* Main.storyboard */,
 				17CC708A1BD2A13F00F7024D /* Assets.xcassets */,
 				17CC708C1BD2A13F00F7024D /* LaunchScreen.storyboard */,
 				17CC70B11BD2A17A00F7024D /* ASParallaxImageView */,
@@ -152,8 +152,8 @@
 		17CC70B11BD2A17A00F7024D /* ASParallaxImageView */ = {
 			isa = PBXGroup;
 			children = (
-				17CC70B21BD2A17A00F7024D /* ASParallaxImageView.h */,
-				17CC70B31BD2A17A00F7024D /* ASParallaxImageView.m */,
+				17BEB0F91BD58CE600982C0F /* ASParallaxImageView.h */,
+				17BEB0FA1BD58CE600982C0F /* ASParallaxImageView.m */,
 			);
 			path = ASParallaxImageView;
 			sourceTree = SOURCE_ROOT;
@@ -271,10 +271,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				17CC708E1BD2A13F00F7024D /* LaunchScreen.storyboard in Resources */,
+				17BEB0FD1BD58D0500982C0F /* Main.storyboard in Resources */,
 				17CC708B1BD2A13F00F7024D /* Assets.xcassets in Resources */,
 				17CC70B91BD2A1A600F7024D /* WalesFlagOpaque.png in Resources */,
 				17CC70B81BD2A1A600F7024D /* WalesFlag.png in Resources */,
-				17CC70891BD2A13F00F7024D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +302,7 @@
 				17CC70861BD2A13F00F7024D /* ViewController.m in Sources */,
 				17CC70831BD2A13F00F7024D /* AppDelegate.m in Sources */,
 				17CC70801BD2A13F00F7024D /* main.m in Sources */,
-				17CC70B41BD2A17A00F7024D /* ASParallaxImageView.m in Sources */,
+				17BEB0FB1BD58CE600982C0F /* ASParallaxImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,14 +338,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		17CC70871BD2A13F00F7024D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17CC70881BD2A13F00F7024D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		17CC708C1BD2A13F00F7024D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -526,6 +518,7 @@
 				17CC70AA1BD2A14000F7024D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17CC70AB1BD2A14000F7024D /* Build configuration list for PBXNativeTarget "ASParallaxImageViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +527,7 @@
 				17CC70AD1BD2A14000F7024D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17CC70AE1BD2A14000F7024D /* Build configuration list for PBXNativeTarget "ASParallaxImageViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +536,7 @@
 				17CC70B01BD2A14000F7024D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
